@@ -21,6 +21,10 @@
 		5E8ADAD91510F1F000BC2B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8ADAB71510F1F000BC2B69 /* Foundation.framework */; };
 		5E8ADAE11510F1F000BC2B69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E8ADADF1510F1F000BC2B69 /* InfoPlist.strings */; };
 		5E8ADAE41510F1F000BC2B69 /* testTextEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8ADAE31510F1F000BC2B69 /* testTextEditorTests.m */; };
+		5E8ADAF31510F33600BC2B69 /* ViewControllerUtilitaire.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8ADAF11510F33600BC2B69 /* ViewControllerUtilitaire.m */; };
+		5E8ADAF41510F33600BC2B69 /* ViewControllerUtilitaire.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8ADAF21510F33600BC2B69 /* ViewControllerUtilitaire.xib */; };
+		5E8ADAF71510FEBE00BC2B69 /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8ADAF61510FEBE00BC2B69 /* MyTextView.m */; };
+		5E8ADAFD1511237D00BC2B69 /* MyTextFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8ADAFC1511237D00BC2B69 /* MyTextFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +42,29 @@
 		5E8ADAB51510F1F000BC2B69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5E8ADAB71510F1F000BC2B69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E8ADAB91510F1F000BC2B69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5E8ADABD1510F1F000BC2B69 /* testTextEditor-Info.plist */ = {isa = PBXFileReference; path = "testTextEditor-Info.plist"; sourceTree = "<group>"; };
+		5E8ADABD1510F1F000BC2B69 /* testTextEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTextEditor-Info.plist"; sourceTree = "<group>"; };
 		5E8ADABF1510F1F000BC2B69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E8ADAC11510F1F000BC2B69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5E8ADAC31510F1F000BC2B69 /* testTextEditor-Prefix.pch */ = {isa = PBXFileReference; path = "testTextEditor-Prefix.pch"; sourceTree = "<group>"; };
-		5E8ADAC41510F1F000BC2B69 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E8ADAC31510F1F000BC2B69 /* testTextEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testTextEditor-Prefix.pch"; sourceTree = "<group>"; };
+		5E8ADAC41510F1F000BC2B69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E8ADAC51510F1F000BC2B69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5E8ADAC81510F1F000BC2B69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		5E8ADACB1510F1F000BC2B69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		5E8ADACD1510F1F000BC2B69 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		5E8ADACD1510F1F000BC2B69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5E8ADACE1510F1F000BC2B69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5E8ADAD51510F1F000BC2B69 /* testTextEditorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTextEditorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8ADAD61510F1F000BC2B69 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5E8ADADE1510F1F000BC2B69 /* testTextEditorTests-Info.plist */ = {isa = PBXFileReference; path = "testTextEditorTests-Info.plist"; sourceTree = "<group>"; };
+		5E8ADADE1510F1F000BC2B69 /* testTextEditorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTextEditorTests-Info.plist"; sourceTree = "<group>"; };
 		5E8ADAE01510F1F000BC2B69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5E8ADAE21510F1F000BC2B69 /* testTextEditorTests.h */ = {isa = PBXFileReference; path = testTextEditorTests.h; sourceTree = "<group>"; };
+		5E8ADAE21510F1F000BC2B69 /* testTextEditorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testTextEditorTests.h; sourceTree = "<group>"; };
 		5E8ADAE31510F1F000BC2B69 /* testTextEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTextEditorTests.m; sourceTree = "<group>"; };
+		5E8ADAF01510F33600BC2B69 /* ViewControllerUtilitaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerUtilitaire.h; sourceTree = "<group>"; };
+		5E8ADAF11510F33600BC2B69 /* ViewControllerUtilitaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerUtilitaire.m; sourceTree = "<group>"; };
+		5E8ADAF21510F33600BC2B69 /* ViewControllerUtilitaire.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerUtilitaire.xib; sourceTree = "<group>"; };
+		5E8ADAF51510FEBE00BC2B69 /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextView.h; sourceTree = "<group>"; };
+		5E8ADAF61510FEBE00BC2B69 /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
+		5E8ADAFB1511237D00BC2B69 /* MyTextFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextFile.h; sourceTree = "<group>"; };
+		5E8ADAFC1511237D00BC2B69 /* MyTextFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,13 +124,15 @@
 		5E8ADABB1510F1F000BC2B69 /* testTextEditor */ = {
 			isa = PBXGroup;
 			children = (
+				5E8ADAFA1511230400BC2B69 /* Models */,
+				5E8ADAF9151122BA00BC2B69 /* Controllers */,
+				5E8ADAF81511229700BC2B69 /* Views */,
 				5E8ADAC41510F1F000BC2B69 /* AppDelegate.h */,
 				5E8ADAC51510F1F000BC2B69 /* AppDelegate.m */,
 				5E8ADAC71510F1F000BC2B69 /* MainStoryboard_iPhone.storyboard */,
 				5E8ADACA1510F1F000BC2B69 /* MainStoryboard_iPad.storyboard */,
-				5E8ADACD1510F1F000BC2B69 /* ViewController.h */,
-				5E8ADACE1510F1F000BC2B69 /* ViewController.m */,
 				5E8ADABC1510F1F000BC2B69 /* Supporting Files */,
+				5E8ADAF21510F33600BC2B69 /* ViewControllerUtilitaire.xib */,
 			);
 			path = testTextEditor;
 			sourceTree = "<group>";
@@ -152,6 +165,35 @@
 				5E8ADADF1510F1F000BC2B69 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E8ADAF81511229700BC2B69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E8ADAF51510FEBE00BC2B69 /* MyTextView.h */,
+				5E8ADAF61510FEBE00BC2B69 /* MyTextView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5E8ADAF9151122BA00BC2B69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E8ADAF01510F33600BC2B69 /* ViewControllerUtilitaire.h */,
+				5E8ADAF11510F33600BC2B69 /* ViewControllerUtilitaire.m */,
+				5E8ADACD1510F1F000BC2B69 /* ViewController.h */,
+				5E8ADACE1510F1F000BC2B69 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5E8ADAFA1511230400BC2B69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E8ADAFB1511237D00BC2B69 /* MyTextFile.h */,
+				5E8ADAFC1511237D00BC2B69 /* MyTextFile.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +269,7 @@
 				5E8ADAC01510F1F000BC2B69 /* InfoPlist.strings in Resources */,
 				5E8ADAC91510F1F000BC2B69 /* MainStoryboard_iPhone.storyboard in Resources */,
 				5E8ADACC1510F1F000BC2B69 /* MainStoryboard_iPad.storyboard in Resources */,
+				5E8ADAF41510F33600BC2B69 /* ViewControllerUtilitaire.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +307,9 @@
 				5E8ADAC21510F1F000BC2B69 /* main.m in Sources */,
 				5E8ADAC61510F1F000BC2B69 /* AppDelegate.m in Sources */,
 				5E8ADACF1510F1F000BC2B69 /* ViewController.m in Sources */,
+				5E8ADAF31510F33600BC2B69 /* ViewControllerUtilitaire.m in Sources */,
+				5E8ADAF71510FEBE00BC2B69 /* MyTextView.m in Sources */,
+				5E8ADAFD1511237D00BC2B69 /* MyTextFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +372,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -352,7 +398,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

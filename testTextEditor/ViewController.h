@@ -8,6 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class ViewControllerUtilitaire;
+@class MyTextView;
+
+@interface ViewController : UIViewController <UITextViewDelegate>
+{
+    ViewControllerUtilitaire *maVueUtilitaire;
+    BOOL isKeyboardShow;
+}
+
+@property (retain, nonatomic) IBOutlet MyTextView *txtContenu;
+
+- (void) keyboardWillShowOrHide:(NSNotification *) n;
+
+- (CGRect)keyboardRect:(NSNotification *) n;
+
+- (NSTimeInterval)keybordAnimationTimming:(NSNotification *) n;
+
+- (UIViewAnimationCurve) keyboardAnnimationCurve:(NSNotification *) n;
 
 @end
